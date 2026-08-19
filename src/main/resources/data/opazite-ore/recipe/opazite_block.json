@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "opazite-ore:opazite"
+  },
+  "result": {
+    "count": 1,
+    "id": "opazite-ore:opazite_block"
+  }
+}

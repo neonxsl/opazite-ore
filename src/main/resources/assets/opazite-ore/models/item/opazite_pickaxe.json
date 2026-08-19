@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "opazite-ore:item/opazite_pickaxe"
+  }
+}

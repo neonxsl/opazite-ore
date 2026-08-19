@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "opazite-ore:opazite_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "opazite-ore:opazite"
+  }
+}

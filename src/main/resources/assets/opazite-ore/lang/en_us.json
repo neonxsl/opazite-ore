@@ -1,0 +1,15 @@
+{
+  "itemGroup.opazite-ore.opazite_group": "Opazite",
+  "block.opazite-ore.deepslate_opazite_ore": "Deepslate Opazite Ore",
+  "block.opazite-ore.opazite_block": "Block of Opazite",
+  "item.opazite-ore.opazite": "Opazite",
+  "item.opazite-ore.opazite_sword": "Opazite Sword",
+  "item.opazite-ore.opazite_pickaxe": "Opazite Pickaxe",
+  "item.opazite-ore.opazite_axe": "Opazite Axe",
+  "item.opazite-ore.opazite_shovel": "Opazite Shovel",
+  "item.opazite-ore.opazite_hoe": "Opazite Hoe",
+  "item.opazite-ore.opazite_helmet": "Opazite Helmet",
+  "item.opazite-ore.opazite_chestplate": "Opazite Chestplate",
+  "item.opazite-ore.opazite_leggings": "Opazite Leggings",
+  "item.opazite-ore.opazite_boots": "Opazite Boots"
+}

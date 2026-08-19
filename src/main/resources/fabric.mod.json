@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "opazite-ore",
+  "version": "${version}",
+  "name": "opazite-ore",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/opazite-ore/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "dev.neonxsl.opaziteOre.client.OpaziteOreDataGenerator"
+    ],
+    "client": [
+      "dev.neonxsl.opaziteOre.client.OpaziteOreClient"
+    ],
+    "main": [
+      "dev.neonxsl.opaziteOre.OpaziteOre"
+    ]
+  },
+  "mixins": [
+    "opazite-ore.mixins.json",
+    {
+      "config": "opazite-ore.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

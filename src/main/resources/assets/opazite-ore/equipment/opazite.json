@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "opazite-ore:opazite"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "opazite-ore:opazite"
+      }
+    ]
+  }
+}
