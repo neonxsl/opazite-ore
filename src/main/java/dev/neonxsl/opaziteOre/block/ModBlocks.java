@@ -17,17 +17,14 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import java.util.function.Function;
 
 public class ModBlocks {
-    // 1. Deepslate Opazite Ore (copies Deepslate Diamond properties and drops 3-7 XP)
     public static final Block DEEPSLATE_OPAZITE_ORE = register("deepslate_opazite_ore",
             properties -> new DropExperienceBlock(UniformInt.of(3, 7), properties),
             BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_DIAMOND_ORE));
-
-    // 2. Opazite Block (copies Diamond Block properties)
+    
     public static final Block OPAZITE_BLOCK = register("opazite_block",
             Block::new,
             BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_BLOCK));
-
-    // Helper method to register both the Block and its BlockItem
+    
     private static Block register(String name, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties properties) {
         ResourceKey<Block> blockKey = ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(OpaziteOre.MOD_ID, name));
         Block block = blockFactory.apply(properties.setId(blockKey));
