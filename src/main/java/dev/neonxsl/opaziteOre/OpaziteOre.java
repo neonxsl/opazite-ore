@@ -28,7 +28,6 @@ public class OpaziteOre implements ModInitializer {
             Identifier.fromNamespaceAndPath(MOD_ID, "ore_opazite_deepslate")
     );
 
-    // Creative Tab
     public static final ResourceKey<CreativeModeTab> OPAZITE_GROUP_KEY = ResourceKey.create(
             BuiltInRegistries.CREATIVE_MODE_TAB.key(),
             Identifier.fromNamespaceAndPath(MOD_ID, "opazite_group")
